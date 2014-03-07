@@ -74,10 +74,10 @@ int main()
 {
 
 	int matrix[5][5] = {{1, 2, 3, 4, 5},
-						{6, 7, 8, 9, 10},
-						{11, 12, 13, 14, 15},
-						{16, 17, 18, 19, 20},
-						{21, 22, 23, 24, 25}};
+			{6, 7, 8, 9, 10},
+			{11, 12, 13, 14, 15},
+			{16, 17, 18, 19, 20},
+			{21, 22, 23, 24, 25}};
 
 	cout << "original matrix!" << endl;
 
@@ -95,8 +95,6 @@ int main()
 		cout << endl;
 	}
 
-	// cout << "DEBUGGING? " << endl;
-	// cout << matrix[1][2];
 	cout << "one rotation! " << endl;
 	rotateCW(matrix);
 	cout << "two rotations!" << endl;
